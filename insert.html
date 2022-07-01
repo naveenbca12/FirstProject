@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="refresh" content="">
+	<style type="text/css">
+		.home
+		{
+			border: 5px solid black;
+			padding: 10px;
+			margin-left: 200px;
+			margin-right: 200px;
+			margin-top: 75px;
+		}
+		h1
+		{
+			text-align: center;
+		}
+		td
+		{
+			padding: 10px 30px;
+			font-size: 20px;
+		}
+		.submitbutton
+		{
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+			border-radius: 30px;
+			background-color: greenyellow;
+			font-size: 20px;
+		}
+		.submitbutton:hover
+		{
+			background-color: black;
+			color: wheat;
+		}
+		.resetbutton
+		{
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+			border-radius: 30px;
+			background-color: greenyellow;
+			font-size: 20px;
+		}
+		.resetbutton:hover
+		{
+			background-color: black;
+			color: wheat;
+		}
+		input[type="text"],input[type="number"]
+		{
+			height: 30px;
+		}
+		.logo
+		{
+			width: 100%;
+			height: 5%;
+		}
+		#deptnm
+		{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div >
+		<img class="logo" src="logo.png">
+	</div>
+<div class="home" >
+	<form method="post" action="http://localhost/harish/insert.php">
+		<h1>DEPARTMENT ACTIVITY ENTRY FORM</h1>
+		<table align="center">
+			<tr>
+				<td>SELECT DEPARTMENT NUMBER<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><select id="deptno" name="deptno" onclick="dep();" style="font-size: 20px;">
+					<option value="TAMIL">1001</option>
+					<option value="ENGLISH">1002</option>
+					<option value="BCA">1003</option>
+					<option value="department4">1004</option>
+					<option value="department5">1005</option>
+					<option value="department6">DEPARTMENT-6</option>
+					<option value="department7">DEPARTMENT-7</option>
+					<option value="department8">DEPARTMENT-8</option>
+					<option value="department9">DEPARTMENT-9</option>
+					<option value="department10">DEPARTMENT-10</option>
+					<option value="department11">DEPARTMENT-11</option>
+					<option value="department12">DEPARTMENT-12</option>
+					<option value="department13">DEPARTMENT-13</option>
+					<option value="department14">DEPARTMENT-14</option>
+				</select>
+			</td>
+			</tr>
+			<tr>
+				<td>DEPARTMENT NAME<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="text" id="deptnm" name="deptnm"  required value="" name="dnm"></td>
+			</tr>
+			<tr>
+				<td>ENTER DESCRIPTON<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><textarea cols="40" rows="5"required="" name="description"></textarea></td>
+			</tr>
+			<tr>
+				<td>ENTER DATE<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="DATE"required="" name="date" ></td>
+			</tr>
+			<tr>
+				<td>ENTER NUMBER OF PARTICIPANTS<t style="color: red;">*</t><br>
+					<p>(FACULTY PARTICIPANTS)</p></td>
+				<td>:</td>
+				<td><input type="number" name="fp"></td>
+			</tr>
+			<tr>
+				<td>ENTER NUMBER OF PARTICIPANTS<br>
+					<p>(STUDENT PARTICIPANTS)</p></td>
+				<td>:</td>
+				<td><input type="number" name="sp"></td>
+			</tr>
+			<tr>
+				<td>ENTER ACADEMIC YEAR<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="text" required name="ay">&nbsp&nbsp(EG:2002-2003)</td>
+			</tr>
+			<tr>
+				<td>SELECT LEVEL<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="level" value="regional">Regional
+					<input type="radio" name="level" value="district">District
+					<input type="radio" name="level" value="state">State
+					<input type="radio" name="level" value="national">National
+				</td>
+			</tr>
+			<tr>
+				<td>SELECT PROOF 1<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="file" placeholder="2020-2021" name="p1"></td>
+			</tr>
+			<tr>
+				<td>SELECT PROOF 2<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="file" placeholder="2020-2021" name="p2"></td>
+			</tr>
+			<tr>
+				<td>SELECT PROOF 3</td>
+				<td>:</td>
+				<td><input type="file" placeholder="2020-2021" name="p3"></td>
+			</tr>
+		</table>
+		<br><br>
+		<div align="middle">
+		<button type="submit" class="submitbutton">submit</button>
+		</div>
+		<div align="middle">
+		<button type="reset" class="resetbutton">reset</button>
+		</div>
+	</form>
+</div>
+</body>
+</html>
