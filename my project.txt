@@ -1,0 +1,118 @@
+<html>
+<head>
+	
+
+  <title>project</title>
+
+
+
+</head>
+
+<body>
+
+
+	
+	<h2  style="text-align: center;
+	 background-color:blue;
+	 
+	 color:white;
+	  font-size:25px;
+      border:3px solid black;">*THYAGARAJAR COLLAGE,MADURAI*<br>an autonomous institution affliate to madurai kamarajar university<br>re-accredited with A++ Grade by NAAC<br>Ranked 22nd in NIRF 2020</h2>
+
+	<p align="middle">
+	<image  height="270" width="300" src="collage logo.png"></image></p>
+     
+
+	<h2 style="
+             background-color:tomato;
+	 color:white;
+	  font-size:23px;
+      border:2px solid black;
+	">FOUNDER:</h2> 
+	kalaithanthai karumuthu thyagaraja chettiyar(1893-1974)
+
+    <p align="middle">
+	<image height="270" width="300" src="founder.png"></image></p>
+
+
+	<h2 style="color:red;
+              background-color:tomato;
+	 color:white;
+	  font-size:25px;
+      border:2px solid black;
+	">VISION:</h2>
+	to serve the society by providing affordable quality higher education to all at all times
+
+	<h2 style="background-color:tomato;
+	 color:white;
+	  font-size:25px;
+      border:2px solid black;">MISSION:</h2>
+	to provide a gender friendly academic ambience that ensure knowledge through student teacher synergy resulting in character development and carrier readiness<br>
+
+
+</p>
+
+	<h4 style="text-align: center; color: skyblue; font-size:22px;">*STUDENTS STRENGTH*</h4>
+    <h4  style="text-align: center; color: brown; font-size:20px;">BOYS-2226</h4>
+    <h4  style="text-align: center; color: brown; font-size:20px;">GIRLS-2609</h4>
+
+    <p align="middle">
+	<image  border="4px" height="380" width="380" src="collage students.jpg"></image>
+</p>
+
+<h2 style="background-color:green;
+	 color:white;
+	  font-size:25px;
+      border:2px solid black;">VALUES:</h2>
+
+
+<ul>
+<li>Outcome Based Education</li>
+<Li>Gender Equity and Women Empowerment
+<li>Upgraded Curriculum
+<li>Competencies at Local, Regional, National and Global Level
+<li>Multi Disciplinary Research
+<li>Self esteem and Confidence building
+<li>Character building through Saiva Siddhantham
+<li>State of the art Infrastructure
+<li>Better Placements
+<li>Affordable Cost
+<li>Philanthropic Management
+<li>Strict adherence to Central Government, UGC, State Government and TANSCHE guideliness</li></ul> <br>
+
+
+<br>
+<p align="middle">
+<table  width="50%" border="9"  bgcolor="pink"cellpadding="5" cellspacing="4" >           <!--table creation-->
+    
+
+      <tr>
+            <th><b>Dr.D.Pandiaraja
+M.Sc., M.Phil., P.G.D.C.A., B.Ed., Ph.D.</b></th>  <!--table heading-->
+            
+           
+     </tr>
+         
+       <tr> 
+        <td><p align="middle"> <image border="5px"  height="280" width="280" align="middle" src="pandiaraja.jpg"></image></p></td>   <!--table data-->
+        
+         </tr>
+
+
+       <tr>
+        <td><i>An alumnus of Thiagarajar College.
+Has 25 years of teaching experience.
+Doing and promoting multi-disciplinary research in Ecology, Networks, Algorithm Analysis, Graph Theory and Partial Differential Equations
+Published Research Articles in peer reviewed journals.
+Presented Research Articles at national and international conferences.
+Executed Research Projects funded by DRDL, CSIR, UGC, DBT, MHRD.
+Organised national level seminars funded by MHRD, UGC
+Published proceedings of two national conferences with ISBN numbers
+Organised summer and winter schools funded by MHRD
+Adopting, implementing and practising 5S principles.</i></td>   <!--table data-->
+        
+   </tr>
+     </table></p>
+     <hr>
+
+   <br>
